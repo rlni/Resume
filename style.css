@@ -20,10 +20,27 @@ h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
 }
+
+hr.top {
+    border-top: 3px solid black;
+}
+
+hr.bottom {
+    border-top: 1px solid black;
+}
 main { 
     display: grid;
-    grid-template-columns: 40% 60%;
-    margin-top: 3em;
+    grid-template-columns: 50% 50%;
+    margin-top: 0.5em;
+    font-size: medium;
+}
+
+ul {
+    font-size: medium;
+}
+
+li {
+    font-size: medium;
 }
 
 header {
@@ -41,6 +58,20 @@ i {
 
 p {
     margin: .2em auto
+}
+p.title {
+    font-weight: bold;
+    font-size:x-large;
+}
+
+p.header{
+    font-weight: bold;
+    font-size: medium;
+}
+
+p.content {
+    font-weight:normal;
+    font-size: medium;
 }
 
 hr {
@@ -76,3 +107,6 @@ h1, h2 {
 
 }
 
+.contact {
+    font-size: large;
+}
