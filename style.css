@@ -69,7 +69,7 @@ h1, h2 {
    }
 
 .watermark {
-  opacity: 0.2;
+  opacity: 0.1;
   text-align: center;
   z-index: 50px;
 }
